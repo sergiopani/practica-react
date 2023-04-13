@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "Bitlletera",
+        "description": "Bitlletera de cuir negre",
+        "reference": "REF-005",
+        "status": "inactive",
+        "inventory": {
+            "unit": "piece",
+            "availableQuantity": 150,
+            "unitCost": 560,
+            "initialQuantity": 320,
+            "warehouses": [
+                {
+                    "id": "1",
+                    "name": "Magatzem Nort",
+                    "observations": null,
+                    "isDefault": true,
+                    "address": "Carrer de la Font, 36, 08304 Mataró",
+                    "status": "active",
+                    "initialQuantity": "320.0",
+                    "availableQuantity": "150",
+                    "minQuantity": "100",
+                    "maxQuantity": "400"
+                }
+            ],
+            "negativeSale": true
+        },
+        "tax": [
+            {
+                "id": 6,
+                "name": "IVA",
+                "percentage": 21,
+                "description": "Impost de valor agefit",
+                "status": "active"
+            }
+        ],
+        "category": {
+            "id": 54,
+            "name": "Vendes"
+        },
+        "price": [
+            {
+                "idPriceList": 1,
+                "name": "General",
+                "price": 1200
+            },
+            {
+                "idPriceList": 2,
+                "name": "Distribuidor",
+                "price": 1050
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cartera",
+        "description": "Cartera de cuir color cafè",
+        "reference": "CAR-195",
+        "status": "active",
+        "inventory": {
+            "unit": "piece",
+            "availableQuantity": 160,
+            "unitCost": 2560,
+            "initialQuantity": 120,
+            "warehouses": [
+                {
+                    "id": "1",
+                    "name": "Magatzem Nort",
+                    "observations": null,
+                    "isDefault": true,
+                    "address": "Carrer de la Font, 36, 08304 Mataró",
+                    "status": "active",
+                    "initialQuantity": "20.0",
+                    "availableQuantity": "100",
+                    "minQuantity": "10",
+                    "maxQuantity": "120"
+                },
+                {
+                    "id": "3",
+                    "name": "Magatzem Sud",
+                    "observations": "Carrer del Ferro, 187, 08006 Barcelona",
+                    "isDefault": false,
+                    "address": null,
+                    "status": "active",
+                    "initialQuantity": "100.0",
+                    "availableQuantity": "600",
+                    "minQuantity": "80"
+                }
+            ]
+        },
+        "tax": [
+            {
+                "id": 6,
+                "name": "IVA",
+                "percentage": 21,
+                "description": "Impost de valor agefit",
+                "status": "active"
+            }
+        ],
+        "category": {
+            "id": 54,
+            "name": "Vendes"
+        },
+        "price": [
+            {
+                "idPriceList": 1,
+                "name": "General",
+                "price": 1200
+            },
+            {
+                "idPriceList": 2,
+                "name": "Distribuïdor",
+                "price": 3900
+            },
+            {
+                "name": "Majorista",
+                "idPriceList": 6,
+                "price": 3700
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Disseny de moneder ",
+        "description": "Disseny de moneder en cuir.",
+        "reference": "",
+        "status": "active",
+        "tax": [
+            {
+                "id": 6,
+                "name": "IVA",
+                "percentage": 21,
+                "description": "Impost de valor agefit",
+                "status": "active"
+            }
+        ],
+        "category": {
+            "id": 54,
+            "name": "Vendes"
+        },
+        "price": [
+            {
+                "idPriceList": 1,
+                "name": "General",
+                "price": 1200
+            }
+        ]
+    }
+]

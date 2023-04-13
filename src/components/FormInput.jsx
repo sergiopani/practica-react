@@ -1,8 +1,10 @@
+import { useState } from "react";
 
 
 const FormInput = (props) => {
+
     const { name, onChange, placeholder, message } = props;
-    console.log(message);
+
     return (
         <div className="formInput">
             <label>{placeholder}</label>
